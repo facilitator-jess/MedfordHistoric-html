@@ -1,0 +1,44 @@
+{
+  "filename": "HillsideAve_35",
+  "file_path": "HillsideAve_35.html",
+  "metadata": {
+    "recorded_by": "Zachary Violette",
+    "organization": "Medford Historical Commission"
+  },
+  "property_info": {
+    "assessors_number": "L-08-3501",
+    "usgs_quad": "Boston North",
+    "area": "MDF.M",
+    "form_number": "MDF.26",
+    "town_city": "Medford",
+    "place": "(neighborhood or village): Medford Square",
+    "address": "35 Hillside Ave",
+    "historic_name": "John W. Hastings House",
+    "uses": "Present: Condominium",
+    "construction_date": "c.1881-1882",
+    "source": "Deeds",
+    "style_form": "Shingle Style/Queen Anne",
+    "architect_builder": "Unknown",
+    "exterior_material": "",
+    "outbuildings": "",
+    "condition": "Excellent",
+    "moved": "no X yes Date:",
+    "acreage": "22,397 square feet.",
+    "setting": "The house is situated on a flat plot at the top of a very steep residential street with freestanding wood frame houses, most of similar age and scale, surrounding."
+  },
+  "images": [
+    {
+      "src": "media/image1.jpeg",
+      "alt": "HillsideAve_35",
+      "style": "width:3.49375in;height:2.61667in"
+    },
+    {
+      "src": "media/image2.jpeg",
+      "alt": "35HillsideLocus.jpg",
+      "style": "width:3.37569in;height:2.99886in"
+    }
+  ],
+  "architectural_description": "",
+  "historical_narrative": "",
+  "bibliography": ""
+}

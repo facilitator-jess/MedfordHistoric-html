@@ -1,0 +1,44 @@
+{
+  "filename": "GovernorsAve_10",
+  "file_path": "GovernorsAve_10.html",
+  "metadata": {
+    "recorded_by": "John D. Clemson",
+    "organization": "Medford Historical Commission"
+  },
+  "property_info": {
+    "assessors_number": "L-08-52",
+    "usgs_quad": "Boston North",
+    "area": "MDF.M",
+    "form_number": "MDF.119",
+    "town_city": "Medford",
+    "place": "(neighborhood or village): Medford Square",
+    "address": "10 Governors Avenue",
+    "historic_name": "Medford Historical Society and Museum",
+    "uses": "Present: Museum and Library",
+    "construction_date": "1916",
+    "source": "cornerstone",
+    "style_form": "Mission",
+    "architect_builder": "Moses W. Mann",
+    "exterior_material": "",
+    "outbuildings": "none",
+    "condition": "Fair",
+    "moved": "no yes Date:",
+    "acreage": "3,952 square feet",
+    "setting": "Tthe building is located at the northern edge of the High Street commercial corridor; to the north is an entirely residential neighborhood, the Bradlee-Hall area (MDF.L)."
+  },
+  "images": [
+    {
+      "src": "media/image1.jpeg",
+      "alt": "",
+      "style": "width:3.80139in;height:3.00625in"
+    },
+    {
+      "src": "media/image2.png",
+      "alt": "",
+      "style": "width:3.75139in;height:2.91875in"
+    }
+  ],
+  "architectural_description": "",
+  "historical_narrative": "",
+  "bibliography": ""
+}

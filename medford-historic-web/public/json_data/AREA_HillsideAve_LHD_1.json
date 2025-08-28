@@ -1,0 +1,24 @@
+{
+  "filename": "AREA_HillsideAve_LHD_1",
+  "file_path": "AREA_HillsideAve_LHD_1.html",
+  "metadata": {},
+  "property_info": {
+    "assessors_number": "L-08",
+    "usgs_quad": "Boston North",
+    "area": "MDF.M",
+    "form_number": "MDF.119 – MDF.1125",
+    "town_city": "Medford",
+    "condition": "Overall  good",
+    "acreage": "224,665 square feet or 5.2 acres"
+  },
+  "images": [
+    {
+      "src": "media/image1.jpeg",
+      "alt": "",
+      "style": "width:3.77847in;height:2.83333in"
+    }
+  ],
+  "architectural_description": "",
+  "historical_narrative": "",
+  "bibliography": ""
+}
