@@ -3,7 +3,7 @@
 import { useState, useEffect } from 'react';
 import { Property, SearchFilters } from '@/types/property';
 import { loadProperties, filterProperties, getUniqueValues, getStreetNames } from '@/lib/properties';
-import SearchFilters from '@/components/SearchFilters';
+import SearchFilterPanel from '@/components/SearchFilterPanel';
 import PropertyCard from '@/components/PropertyCard';
 
 export default function Home() {
@@ -87,7 +87,7 @@ export default function Home() {
       {/* Main Content */}
       <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         {/* Search and Filters */}
-        <SearchFilters
+        <SearchFilterPanel
           onFiltersChange={handleFiltersChange}
           streets={streets}
           styles={styles}

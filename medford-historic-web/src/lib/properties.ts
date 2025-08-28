@@ -77,7 +77,7 @@ export function getUniqueValues(properties: Property[], field: keyof Property['p
 export function getStreetNames(properties: Property[]): string[] {
   const streets = properties
     .map(p => p.property_info.address)
-    .filter(Boolean)
+    .filter((address): address is string => Boolean(address))
     .map(address => {
       const parts = address.split(' ');
       return parts.slice(2).join(' '); // Skip house number and street number

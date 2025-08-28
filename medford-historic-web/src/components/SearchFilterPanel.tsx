@@ -3,7 +3,7 @@
 import { useState } from 'react';
 import { SearchFilters } from '@/types/property';
 
-interface SearchFiltersProps {
+interface SearchFilterPanelProps {
   onFiltersChange: (filters: SearchFilters) => void;
   streets: string[];
   styles: string[];
@@ -11,13 +11,13 @@ interface SearchFiltersProps {
   constructionDates: string[];
 }
 
-export default function SearchFilters({
+export default function SearchFilterPanel({
   onFiltersChange,
   streets,
   styles,
   conditions,
   constructionDates
-}: SearchFiltersProps) {
+}: SearchFilterPanelProps) {
   const [filters, setFilters] = useState<SearchFilters>({});
 
   const handleFilterChange = (key: keyof SearchFilters, value: string) => {
