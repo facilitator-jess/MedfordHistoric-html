@@ -74,13 +74,29 @@ export default function Home() {
     <div className="min-h-screen bg-gray-50">
       {/* Header */}
       <header className="bg-white shadow-sm border-b">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
-          <h1 className="text-3xl font-bold text-gray-900">
-            Medford Historic Properties
-          </h1>
-          <p className="mt-2 text-gray-600">
-            Explore {properties.length} historic properties in Medford, Massachusetts
-          </p>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          {/* Banner Image */}
+          <div className="w-full h-48 sm:h-64 md:h-80 relative overflow-hidden rounded-b-lg bg-gray-100">
+            <img
+              src="/banner.png"
+              alt="Medford Historic Properties Banner"
+              className="w-full h-full object-cover object-center"
+              onError={(e) => {
+                console.error('Banner image failed to load');
+                e.currentTarget.style.display = 'none';
+              }}
+            />
+          </div>
+          
+          {/* Header Content */}
+          <div className="py-6">
+            <h1 className="text-3xl font-bold text-gray-900">
+              Medford Historic Properties
+            </h1>
+            <p className="mt-2 text-gray-600">
+              Explore {properties.length} historic properties in Medford, Massachusetts
+            </p>
+          </div>
         </div>
       </header>
 
